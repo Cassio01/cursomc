@@ -23,16 +23,4 @@ public class ClienteController {
 		Cliente cat = service.buscarPorId(id);
 		return ResponseEntity.ok(cat);
 	}
-
-//	@GetMapping
-//	public List<Cliente> lista() {
-//		Cliente cat1 = new Cliente(1l, "Informática");
-//		Cliente cat2 = new Cliente(2l, "Escritório");
-//		
-//		List<Cliente> lista = new ArrayList<>();
-//		lista.add(cat1);
-//		lista.add(cat2);
-//			
-//		return lista;
-//	}
 }

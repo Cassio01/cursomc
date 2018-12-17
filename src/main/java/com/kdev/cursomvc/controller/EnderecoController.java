@@ -23,16 +23,4 @@ public class EnderecoController {
 		Endereco cat = service.buscarPorId(id);
 		return ResponseEntity.ok(cat);
 	}
-
-//	@GetMapping
-//	public List<Endereco> lista() {
-//		Endereco cat1 = new Endereco(1l, "Informática");
-//		Endereco cat2 = new Endereco(2l, "Escritório");
-//		
-//		List<Endereco> lista = new ArrayList<>();
-//		lista.add(cat1);
-//		lista.add(cat2);
-//			
-//		return lista;
-//	}
 }

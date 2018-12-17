@@ -23,16 +23,4 @@ public class CategoriaController {
 		Categoria cat = service.buscarPorId(id);
 		return ResponseEntity.ok(cat);
 	}
-
-//	@GetMapping
-//	public List<Categoria> lista() {
-//		Categoria cat1 = new Categoria(1l, "Informática");
-//		Categoria cat2 = new Categoria(2l, "Escritório");
-//		
-//		List<Categoria> lista = new ArrayList<>();
-//		lista.add(cat1);
-//		lista.add(cat2);
-//			
-//		return lista;
-//	}
 }

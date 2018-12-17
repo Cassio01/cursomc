@@ -23,16 +23,4 @@ public class PedidoController {
 		Pedido cat = service.buscarPorId(id);
 		return ResponseEntity.ok(cat);
 	}
-
-//	@GetMapping
-//	public List<Pedido> lista() {
-//		Pedido cat1 = new Pedido(1l, "Informática");
-//		Pedido cat2 = new Pedido(2l, "Escritório");
-//		
-//		List<Pedido> lista = new ArrayList<>();
-//		lista.add(cat1);
-//		lista.add(cat2);
-//			
-//		return lista;
-//	}
 }
